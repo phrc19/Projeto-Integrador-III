@@ -7,9 +7,7 @@ Usamos o arquivo [altcrime.csv](/fonte-de-dados/altcrime.csv) como fonte de dado
 * Rode o script de [tratamento de dados](tratamento-banco.ipynb)
 * Use algum programa para leitura de banco sqlite como o [db browser](https://sqlitebrowser.org/dl/)
 
-### Bibliotecas
-* pandas 1.5.3
-* db-sqlite3
-* datetime 5.1
+### Bibliotecas 
 
-
+para instalar as dependencias execute o comando: `pip install -r requirements.txt`
+[requirements.txt](requirements.txt)
