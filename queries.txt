@@ -1,0 +1,36 @@
+-- 
+SELECT 
+	neighborhood , count( *)
+FROM 
+	altcrime
+GROUP BY 
+	neighborhood
+
+--
+
+SELECT 
+	npu, count( *)
+FROM 
+	altcrime
+GROUP by npu
+
+-- 
+
+SELECT 
+	crime, count( *)
+FROM 
+	altcrime
+GROUP by crime
+	
+
+--
+
+SELECT 
+	 strftime('%d/%m/%Y', crime_date),
+	count( *)
+FROM 
+	altcrime
+WHERE
+	crime_date BETWEEN '2009-01-01' AND  '2009-12-31' 
+GROUP by CRIME_DATE
+	
