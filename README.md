@@ -19,11 +19,13 @@ Uma recolha de dados criminais a partir do portal de dados aberto do Departament
 
 
 ### Preparação ambiente
-* Baixe o arquivo fonte de dados no [data.world](https://data.world/bryantahb/crime-in-atlanta-2009-2017)
-* Rode o script de [tratamento de dados](tratamento-banco.ipynb)
-* Use algum programa para leitura de banco sqlite como o [db browser](https://sqlitebrowser.org/dl/)
+1. Baixe o arquivo fonte de dados no [data.world](https://data.world/bryantahb/crime-in-atlanta-2009-2017)
+1. Rode o script de [tratamento de dados](tratamento-banco.ipynb), no Jupyter Notebook, na mesma pasta onde está o arquivo fonte
+1. Foi utilizado o DB Browser para receber o database.db gerado no script de tratamentos acima, para baixar o DB Browser utilize o link - [db browser](https://sqlitebrowser.org/dl/)
 
 ### Bibliotecas 
 
 para instalar as dependencias execute o comando: `pip install -r requirements.txt`
 [requirements.txt](requirements.txt)
+
+
