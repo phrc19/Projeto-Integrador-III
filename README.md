@@ -1,5 +1,5 @@
 # Projeto-Integrador-III
-
+## C1
 ### Crimes em Atlanta 2009-2017
 Uma recolha de dados criminais a partir do portal de dados aberto do Departamento de Polícia de Atlanta. A sua ligação para descarregar o conjunto total de dados foi desactivada durante algum tempo. Trata-se de uma agregação de dados de toda a cidade para cada mês entre Janeiro de 2009 e Fevereiro de 2017
 [Link do data.world](https://data.world/bryantahb/crime-in-atlanta-2009-2017)
@@ -29,3 +29,11 @@ para instalar as dependencias execute o comando: `pip install -r requirements.tx
 [requirements.txt](requirements.txt)
 
 
+## C2
+
+Objetivos:
+1. Apresentar análise exploratória dos dados selecionados.
+2. Desenvolver um relatório com as análises realizadas.
+3. Tirar conclusões sobre os dados expostos.
+
+## C3
